@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-banner {
+    position: relative;
+    padding: 100px 0;
+}
+
+.main-banner h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.main-banner p {
+    font-size: 25px;
+}
+
+.main-banner .form-control,
+.main-banner .form-select {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: #333;
+}
+
+.main-banner .btn-danger {
+    background-color: #e74c3c;
+    border: none;
+}
+
+.highlights {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.highlight-box img {
+    width: 80px;
+    height: 80px;
+}
+
+.highlight-box h4 {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.highlight-box p {
+    font-size: 14px;
+    color: #666;
+}

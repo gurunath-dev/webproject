@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Your City</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="jumbotron big-banner" style="background-image: url('https://www.shutterstock.com/image-photo/palm-tropical-beach-600nw-569532439.jpg'); background-size: cover; background-position: top;">
+    <header class="background-image py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="logo text-white" >dirEngine.</h1>
+            <div class="container d-flex justify-content-end align-items-center">
+            <nav>
+                <ul class="nav text-light">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Tour</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Hotels</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn btn-outline-primary">Add Listing</a>
+        </div>
+    </header>
+    
+        <div class="container text-white text py-5">
+            <h2 class="display-3 "><b>Explore</b>
+            <h2 class="display-3 ">your amazing city</h2>
+            <p class="lead">Find great places to stay, eat, shop, or visit from local experts</p>
+            <form class="row g-2 justify-content mt-4">
+                <div class="col-md-4">
+                    <input type="text" class="form-control" placeholder="Ex: food, service, hotel">
+                </div>
+                <div class="col-md-2">
+                    <select class="form-select">
+                        <option selected>Where</option>
+                        <option value="1">City Center</option>
+                        <option value="2">Suburbs</option>
+                        <option value="3">Outskirts</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-danger w-100">Search</button>
+                </div>
+            </form>
+            <div class="col mt-4">
+                <p>Or browse the highlights</p>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-light">Restaurant</button>
+                    <button type="button" class="btn btn-outline-light">Hotel</button>
+                    <button type="button" class="btn btn-outline-light">Places</button>
+                    <button type="button" class="btn btn-outline-light">Shopping</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlights bg-white py-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="highlight-box">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ52rwqu3GTKVlHKSQXQ_eShmWcYz--8jISQ&s" alt="Best Price Guarantee" class="mb-3">
+                        <h4>Best Price Guarantee</h4>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="highlight-box">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB48u6L-z3_S9L7zVkNBacTAI2XjCc8BxN0g&s" alt="Travellers Love Us" class="mb-3">
+                        <h4>Travellers Love Us</h4>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="highlight-box">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMVMqtqV9ng8QgVvG--lwEy0Knpp1OawlP1w&s" alt="Best Travel Agent" class="mb-3">
+                        <h4>Best Travel Agent</h4>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="highlight-box">
+                        <img src="data:image/png;base64,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" alt="Our Dedicated Support" class="mb-3">
+                        <h4>Our Dedicated Support</h4>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
